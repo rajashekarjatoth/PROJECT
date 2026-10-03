@@ -1,6 +1,9 @@
-from pydantic import BaseModel, EmailStr, Field
+"""
+Pydantic schemas and DTOs for Cognitive Assistance Bot
+"""
 from typing import List, Optional, Dict, Any
 from datetime import datetime
+from pydantic import BaseModel, EmailStr, Field
 
 
 class UserRegister(BaseModel):
